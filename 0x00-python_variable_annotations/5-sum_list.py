@@ -10,4 +10,4 @@ def sum_list(input_list: list[float]) -> float:
     sum = 0
     for i in range(0, len(input_list)):
         sum += input_list[i]
-    return sum
+    return (sum)
