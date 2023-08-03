@@ -7,7 +7,7 @@ input_list of floats as argument and returns their sum as a float.
 
 def sum_list(input_list: list[float]) -> float:
     """ returns sum of input_list elements"""
-    sum: float = 0
+    sum = 0
     for i in range(0, len(input_list)):
         sum += input_list[i]
     return (sum)
