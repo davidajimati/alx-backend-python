@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""takes variables, returns a tuple"""
+""" Complex types - string and int/float to tuple """
+from typing import Union, Tuple
 
-import typing
 
-
-def to_kv(k: str, v: typing.Union[int | float]) -> typing.Tuple[str, float]:
-    """returns a float value from k and v"""
-    return ((k, v*v))
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    """ Return tuple with string and square of int/float """
+    return (k, v * v)
